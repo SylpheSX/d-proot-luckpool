@@ -10,12 +10,15 @@ cd
 echo -e "\e[1;42m                                        \e[0m"
 echo -e "\e[1;42m         apt update && upgrade          \e[0m"
 echo -e "\e[1;42m                                        \e[0m"
-yes | pkg update && pkg upgrade
+yes | pkg update 
+yes | pkg upgrade
 
 echo -e "\e[1;45m                                        \e[0m"
 echo -e "\e[1;45m        Install lib wget && nano        \e[0m"
 echo -e "\e[1;45m                                        \e[0m"
-yes | pkg install libjansson wget nano
+yes | pkg install libjansson 
+yes | pkg install wget 
+yes | pkg install nano
 
 echo -e "\e[1;42m                                        \e[0m"
 echo -e "\e[1;42m            Install ccminer             \e[0m"
