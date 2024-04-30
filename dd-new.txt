@@ -3,8 +3,9 @@
 echo -e "\e[1;45m                                        \e[0m"
 echo -e "\e[1;45m         Edit profile New               \e[0m"
 echo -e "\e[1;45m                                        \e[0m"
-dos2unix ./d-proot-luckpool/ddd.txt
-cat ./d-proot-luckpool/ddd.txt >> ~/../usr/etc/profile
+cd d-proot-luckpool
+dos2unix ddd.txt
+cat ddd.txt >> ../../usr/etc/profile
 cd
 
 echo -e "\e[1;42m                                        \e[0m"
